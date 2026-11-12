@@ -31,7 +31,7 @@ envelop.append("product_cost", productcost)
 envelop.append("product_photo", productphoto)
 
 try{
-const response = await axios.post("http://kevinmodcom.alwaysdata.net/addproduct", envelop)
+const response = await axios.post("https://kevinmodcom.alwaysdata.net/addproduct", envelop)
 setSuccess(response.data.message)
 setLoading("")
 

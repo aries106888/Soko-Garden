@@ -14,7 +14,7 @@ let navigate = useNavigate();
 const fetchallproducts = async() =>{
 setLoading("Fetching products...")
 try {
-const response = await axios.get("http://kevinmodcom.alwaysdata.net/getproducts")
+const response = await axios.get("https://kevinmodcom.alwaysdata.net/getproducts")
 setProducts(response.data)
 setLoading("")
 } catch (error) {
@@ -28,7 +28,7 @@ useEffect(()=>{
 fetchallproducts()
 }, [])
 console.log(products)
-const imagepath= "http://kevinmodcom.alwaysdata.net/static/images/"
+const imagepath= "https://kevinmodcom.alwaysdata.net/static/images/"
 return(
 <div className=" container-fluid height={300} width={300}">
     {/* carousel goes here  */}
