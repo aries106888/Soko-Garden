@@ -16,13 +16,13 @@ const Footer = () => {
             <div class="col-md-4 text-center text-light">
                 <h2>Stay Connected</h2>
                 <a href="https://facebook.com">
-                    <img src="public/images/Facebook.png" alt="fb"  width={100}/>
+                    <img src="/images/Facebook.png" alt="fb"  width={100}/>
                 </a>
                 <a href="https://instagram.com">
-                    <img src="public/images/IG.jpeg" alt="inst"  width={100}/>
+                    <img src="/images/IG.jpeg" alt="inst"  width={100}/>
                 </a>
                 <a href="https://x.com">
-                     <img src="public/images/X.avif" alt="x"  width={100}/>
+                     <img src="/images/X.avif" alt="x"  width={100}/>
                 </a>
                
                 <p>You can reach us through the following social media platfroms within weekdays.</p>
