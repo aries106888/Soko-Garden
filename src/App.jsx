@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
+import Videos from './components/Video';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Signup from './components/Signup';
 import Signin from './components/Signin';
@@ -20,6 +21,7 @@ const App = () =>{
         <Route path='/signup'  element={<Signin/>} />
         <Route path='/addproducts'  element={<Addproducts/>} />
         <Route path='/mpesapayment'  element={<Mpesapayment/>} />
+        <Route path='/videos' element={<Videos />} />
 
       </Routes>
 
